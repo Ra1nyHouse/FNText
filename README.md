@@ -14,5 +14,8 @@ loss. Thus we implement our model by C99 and OpemMP,
 which can receive variable-length sequence as input, rather
 than fixed array.
 
+
 The model is shown as follows:
+
+
 ![model](https://raw.githubusercontent.com/Ra1nyHouse/FNText/master/model.png)
