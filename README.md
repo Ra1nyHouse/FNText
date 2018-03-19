@@ -24,3 +24,21 @@ The model is shown as follows:
 
 ![results](https://raw.githubusercontent.com/Ra1nyHouse/FNText/master/results.png)
 
+## Usage
+
+1. -train training data path
+2. -test testing data path
+3. -vali validation data path
+4. -dim dimension of word vectors
+5. -vocab vocabulary size
+6. -epoch epoch
+7. -batch-size batch size
+8. -thread number of threads
+9. -limit-vocab (float)  limiting vocabulary
+
+```sh
+fntext -train train/data/path -test test/data/path -vali vali/data/path -dim 600 -vocab 350000 -category 2 -epoch 5 -batch-size 1000 -thread 20 -limit-vocab 1
+```
+```sh
+fntext_bi -train train/data/path -test test/data/path -vali vali/data/path -dim 600 -vocab 350000 -category 2 -epoch 5 -batch-size 1000 -thread 20 -limit-vocab 1
+```
